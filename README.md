@@ -40,6 +40,28 @@ docker-compose down -v
 ```
 
 
+# 🌦️ Wetter-App - Dokumentation  
+
+## 📌 Projektübersicht  
+
+Ich habe soweit nur ein Widget entworfen. Die Einbindung in Teams habe ich kurz probiert, letztendlich aber nicht hinbekommen. Deshalb auch das manifest.json im Frontend und die Key-Dateien, um HTTPS zu bekommen. Bin dann daran gescheitert, dass ich einen Teams-Unternehmensaccount bräuchte, weil ich in "normalen Teams" keine Apps hochladen durfte. Habe dann noch herausgefunden, dass man einen Developer-Account beantragen kann, aber dann war die Seite da irgendwie down, und dann habe ich das aufgegeben.
+
+Die Wetter-App ist eine Full-Stack-Anwendung, die Wetterdaten für verschiedene Städte anzeigt.
+Das Projekt besteht aus:  
+- **Frontend:** React (TypeScript)  
+- **Backend:** Spring Boot (Java)  
+- **Datenbank:** PostgreSQL  
+- **Deployment:** Docker & Docker Compose  
+- **API:** Open-Meteo (für Wetterdaten)
+---
+
+## 🚀 Funktionen  
+✅ Anzeige der Wetterdaten für verschiedene Städte  
+✅ Datenaktualisierung über eine API (Spring Boot)  
+✅ PostgreSQL-Datenbank zur Speicherung von Wetterdaten  
+✅ Automatisierte Bereitstellung mit Docker  
+
+---
 
 
 
