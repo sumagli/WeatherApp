@@ -1,0 +1,44 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.11",
+    "version": "1.0.0",
+    "id": "weather-widget-app",
+    "packageName": "com.moenkemoeller.weather",
+    "developer": {
+      "name": "Moenkemoeller IT",
+      "websiteUrl": "https://localhost:5173",
+      "privacyUrl": "https://localhost:5173/privacy",
+      "termsOfUseUrl": "https://localhost:5173/terms"
+    },
+    "icons": {
+      "color": "color-icon.png",
+      "outline": "outline-icon.png"
+    },
+    "name": {
+      "short": "Weather Widget",
+      "full": "Weather Forecast Widget"
+    },
+    "description": {
+      "short": "Get the latest weather updates directly in Teams!",
+      "full": "This widget provides a 5-day weather forecast for Stuttgart and other locations."
+    },
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://localhost:5173/config",
+        "canUpdateConfiguration": true,
+        "scopes": ["team", "groupchat"]
+      }
+    ],
+    "staticTabs": [
+      {
+        "entityId": "weatherTab",
+        "name": "Weather",
+        "contentUrl": "https://localhost:5173",
+        "websiteUrl": "https://localhost:5173",
+        "scopes": ["personal"]
+      }
+    ],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": ["localhost"]
+  }
+  

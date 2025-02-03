@@ -1,0 +1,75 @@
+.weather-widget {
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to bottom, #0078D4, #005a9e);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.weather-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weather-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  background: #fff;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.weather-message {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.weather-message.error {
+  color: red;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weather-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.weather-date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.current-day {
+  background: #ffcc00 !important; 
+  color: #333 !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+.weather-icon {
+  font-size: 22px;
+}
+
+.weather-temp {
+  font-size: 16px;
+  font-weight: bold;
+}
