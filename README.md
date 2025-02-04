@@ -17,7 +17,6 @@ weather-app/
   ├── backend/
   │   ├── Dockerfile
   │   ├── target/weather-widget-0.0.1-SNAPSHOT.jar
-  ├── weatherdb_dump.sql
   ├── docker-compose.yml
   ├── README.md
 ```
